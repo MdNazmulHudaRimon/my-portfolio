@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Redressed', cursive;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+.flex{
+    display: flex;
+}
+.header{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-right: 10%;
+}
+.col-2{
+    width: 40%;
+    margin: auto;
+}
+.col-2 h1{
+    font-size: 50px;
+    text-align: justify;
+}
+.highlight{
+    color:#FF3987;
+}
+.col-2 h3{
+    text-align: justify;
+}
+.col-2 p{
+    text-align: justify;
+    margin-bottom: 30px;
+    font-size:large;
+}
+
+.button{
+    text-decoration: none;
+    padding:10px 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, orange, red);
+    color: #000;
+    border-radius: 10px;
+}
+.dream {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 3%;
+}
+.dream-content{
+    margin-right: 13%;
+}
+.img{
+    margin-left: 10%;
+}
+.header-content{
+    margin-left: 11%;
+}
